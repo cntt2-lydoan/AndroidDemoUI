@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#1e272e">
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What type of cofee?"
+        android:background="#b33939"
+        android:textColor="#ffffff">
+
+    </TextView>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Decaf"
+                android:buttonTint="#ffffff"
+                android:textColor="#ffffff"/>
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Expresso"
+                android:buttonTint="#ffffff"
+                android:checked="true"
+
+                android:textColor="#ffffff"/>
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Colombian"
+                android:buttonTint="#ffffff"
+                android:textColor="#ffffff"/>
+
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What else in you Cofee?"
+            android:textColor="#ffffff"
+            android:background="#b33939"/>
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cream"
+            android:textColor="#ffffff"
+            android:buttonTint="#ffffff"/>
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sugar"
+            android:textColor="#ffffff"
+            android:buttonTint="#ffffff"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:text="Pay" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
